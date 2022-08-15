@@ -6,24 +6,47 @@
     <link rel="stylesheet" href="style.css">
     <style>
         h1{
+            font-family: sans-serif;
             font-size: 65px;
             color: orange;
         }
+        p{
+            font-weight: 600;
+            font-size: 3em;
+            font-style: italic;
+            line-height: 4.5em;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        #yellow{
+           background-color: yellow;
+        }
+        #red{
+            background-color: red;
+        }
+        #brown{
+            background-color: brown;
+        }
+/* classes */
         .cor-fundo{
             background-color: gray;
         }
-        
-        
+        .fonte-do-body{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
     </style>
   </head>
-  <div id="header"></div>  <!--criar um container no site -->
-  <body>
+<!-- <div id="header"></div>  criar um container no site -->
+  <body class="fonte-do-body">
     <h1> Exercícios 3.2 </h1>
-    <p class="cor-fundo"> Qual é a sua cor favorita?</p>
-    <ul class="cor-fundo">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+    <p class="cor-fundo"> Qual é a sua cor favorita? <a href="#">AQUI</a></p>
+    <ul>
+      <li id="yellow" >Amarelo</li>
+      <li id="red" >Vermelho</li>
+      <li id="brown" >Marrom</li>
     </ul>
   </body>
 </html>
