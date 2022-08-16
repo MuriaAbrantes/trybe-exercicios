@@ -1,0 +1,50 @@
+div:hover {
+    border: 1px solid rebeccapurple;
+}
+div:nth-child(3) {
+    background-color: lightgreen;
+  } 
+
+  div:nth-child(4) {
+    background-color: palevioletred;
+  } 
+
+  div:nth-child(5) {
+    background-color: greenyellow;
+  } 
+
+  div:nth-child(6) {
+    background-color: blue;
+  } 
+
+  div:nth-child(7) {
+    background-color: yellow;
+  }
+
+  div:nth-child(3), h3:nth-child(4) {
+    color: #ffffff;
+  }
+
+  div:nth-child(4), h3:nth-child(5) {
+    color: #57f880;
+  }
+
+  div:nth-child(5), h3:nth-child(6) {
+    color: #439;
+  }
+
+  div:nth-child(6), h3:nth-child(7) {
+    color: #376000;
+  }
+
+  div:nth-child(7), h3:nth-child(8) {
+    color: #f00000;
+  }
+
+  div:nth-child(5) {
+   font-size: 30px;
+  } 
+
+  div:nth-child(odd), h3:nth-child(3n+0) {
+    font-style: italic ;
+  } 
