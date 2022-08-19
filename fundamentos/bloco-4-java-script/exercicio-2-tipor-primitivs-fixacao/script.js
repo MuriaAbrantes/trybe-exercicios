@@ -9,7 +9,7 @@
 // console.log(typeof isEnrolled);
 // console.log(typeof patientInfo);
 // console.log(typeof patientId);
-// console.log(typeof patientEmail); 
+// console.log(typeof patientEmail);
 
 const base = 5;
 let heigth = 8;
