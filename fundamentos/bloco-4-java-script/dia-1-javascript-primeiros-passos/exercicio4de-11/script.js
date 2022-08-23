@@ -10,4 +10,4 @@ if (simbolo === "+") {
   console.log("zero")
 }
 
-// RESOLVIDO em 23 de ago as 00:42min!
+// RESOLVIDO!
