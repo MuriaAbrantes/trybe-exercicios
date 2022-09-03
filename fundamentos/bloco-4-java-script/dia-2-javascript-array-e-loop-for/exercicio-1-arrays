@@ -1,0 +1,6 @@
+// Obtenha o valor "manteiga" do array listCoffee:
+let listCoffee = ['pão', 'leite', 'queijo', 'manteiga', 'pão de queijo', 'presunto'];
+
+let listCoffeeManteiga = listCoffee[3];
+
+console.log(listCoffeeManteiga);
