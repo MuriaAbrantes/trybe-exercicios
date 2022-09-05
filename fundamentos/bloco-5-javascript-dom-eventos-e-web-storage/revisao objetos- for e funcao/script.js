@@ -83,13 +83,13 @@
 // ok
 // ______________________________________________--
 
-// let idades = [30, 35, 28];
-// let nomes = ["Ana", "Juliana", "Leonardo"];
-// let faculdade = [false, true, true];
+let idades = [30, 35, 28];
+let nomes = ["Ana", "Juliana", "Leonardo"];
+let faculdade = [false, true, true];
 
-// funcionarios = [nomes,idades,faculdade];
+let funcionarios = [nomes,idades,faculdade];
 
-// console.log(faculdade[0][1])
+console.log(nomes[0])
 
 // ________________________________________________
 // FOR Clássico:
@@ -219,21 +219,21 @@
 
 // _________________________________________________
 
-const crespo = {
-  nome: 'Jonatan ',
-  sobrenome: 'Domingues Crespo',
-  idade: 29,
-  dataDeNasc: '23/03/1993',
-  naturalidade: 'Maringa-PA',
-  cor: 'Preto',
-  telefone: '99898-2302',
-  cpf: '11610843684',
-}
+// const crespo = {
+//   nome: 'Jonatan ',
+//   sobrenome: 'Domingues Crespo',
+//   idade: 29,
+//   dataDeNasc: '23/03/1993',
+//   naturalidade: 'Maringa-PA',
+//   cor: 'Preto',
+//   telefone: '99898-2302',
+//   cpf: '11610843684',
+// }
 
-crespo.nomeDaMae = 'Luzia Maria';
-crespo.nomeDoPai = 'José Luis';
-crespo.estadoCivil = 'Casado';
+// crespo.nomeDaMae = 'Luzia Maria';
+// crespo.nomeDoPai = 'José Luis';
+// crespo.estadoCivil = 'Casado';
 
-console.log(`Sou casada com ${crespo.nome + crespo.sobrenome}, ele tem ${crespo.idade} de idade e nasceu na cidade de ${crespo.naturalidade}`);
+// console.log(`Sou casada com ${crespo.nome + crespo.sobrenome}, ele tem ${crespo.idade} de idade e nasceu na cidade de ${crespo.naturalidade}`);
 
-// ok
+// // ok
