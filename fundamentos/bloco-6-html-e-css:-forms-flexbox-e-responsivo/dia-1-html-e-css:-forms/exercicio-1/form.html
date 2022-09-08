@@ -1,99 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <title>TrybeTrip</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <link rel="stylesheet" href="./">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <header>
-  <section id="title">
-    <h1>Formulário de contato</h1>
-  </section>
+  <div class="container">
+    <section id="title">
+      <h1>Formulário de contato</h1>
+    </section>
+  </div>
 </header>
 
 <body>
-  <form action="" method="get" id="formulario">
+  <form class="form-horizontal" action="" method="get" id="formulario">
 
-    <p>Nome completo:</p>
-    <input type="text" name="nome" id="input-nome">
-    <p>Email:</p>
-    <input type="text" name="email" id="input-email">
-    <p>Destino Preferido:</p>
-    <select name="destino" id="input-destino">
-      <option value="ST">São Thomé das Letras-MG</option>
-      <option value="LS">Lagoa Santa-MG</option>
-      <option value="TR">Teresópolis-RJ</option>
-      <option value="MV">Monte Verde-MG</option>
-      <option value="PI">Pirenópolis-GO</option>
-    </select>
-    <p>Qual a melhor data para a viagem?</p>
-    <label for="input-dia">Dia</label>
-    <select name="dia" id="input-dia">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-      <option value="12">12</option>
-      <option value="13">13</option>
-      <option value="14">14</option>
-      <option value="15">15</option>
-      <option value="16">16</option>
-      <option value="17">17</option>
-      <option value="18">18</option>
-      <option value="19">19</option>
-      <option value="20">20</option>
-      <option value="21">21</option>
-      <option value="22">22</option>
-      <option value="23">23</option>
-      <option value="24">24</option>
-      <option value="25">25</option>
-      <option value="26">26</option>
-      <option value="27">27</option>
-      <option value="28">28</option>
-      <option value="29">29</option>
-      <option value="30">30</option>
-      <option value="30">31</option>
-    </select>
+    <div class="container">
+      <div class=" form-group">
+        <label for="input-nome">Nome Completo:</label>
+        <input type="text" name="nome" id="input-nome">
+      </div>
+    </div>
 
-    <label for="input-mes">Mês</label>
-    <select name="mes" id="input-mes">
-      <option value="J">JAN</option>
-      <option value="F">FEV</option>
-      <option value="M">MAR</option>
-      <option value="A">ABR</option>
-      <option value="M">MAI</option>
-      <option value="JN">JUN</option>
-      <option value="JL">JUL</option>
-      <option value="A">AGO</option>
-      <option value="S">SET</option>
-      <option value="O">OUT</option>
-      <option value="N">NOV</option>
-      <option value="D">DEZ</option>
-    </select>
+    <div class="container">
+      <div class=" form-group">
+        <label for="input-email">Email:</label>
+        <input type="text" name="email" id="input-email" placeholder="Insira seu email">
+      </div>
+    </div>
 
-    <label for="input-ano">Ano</label>
-    <select name="mes" id="input-mes">
-      <option value="A22">2022</option>
-      <option value="A23">2023</option>
-      <option value="A24">2024</option>
-    </select>
+    <div class="container">
+      <p>Destino Preferido:</p>
+      <select name="destino" id="input-destino">
+        <option value="ST">São Thomé das Letras-MG</option>
+        <option value="LS">Lagoa Santa-MG</option>
+        <option value="TR">Teresópolis-RJ</option>
+        <option value="MV">Monte Verde-MG</option>
+        <option value="PI">Pirenópolis-GO</option>
+      </select>
+    </div>
 
-    <label for=""></label><br><br>
-    <button>Enviar</button>
-
+    <div class="container">
+        <label class="col-sm-2 control-label">Qual a melhor data para a viagem?</label>
+        <div class="col-sm-10">
+          <div class="input-group date">
+            <input type="text" class="form-control" id="input-date">
+            <div class="input-group-addon">
+              <span class="glyphicon glyphicon-th"></span>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <div class="container">
+      <div class="for-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </div>
+      </div>
+    </div>
   </form>
 
 
 
+
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" href="<!-- JavaScript Bundle with Popper -->
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+  </script>">
   <script src="./script.js"></script>
 </body>
 
