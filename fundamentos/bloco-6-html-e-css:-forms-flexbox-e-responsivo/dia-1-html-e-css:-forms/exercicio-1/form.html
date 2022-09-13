@@ -24,50 +24,69 @@
 
     <div class="container">
       <div class=" form-group">
-        <label for="input-nome">Nome Completo:</label>
-        <input type="text" name="nome" id="input-nome">
+        <label for="input-nome">Nome Completo:
+          <input type="text" name="nome" id="input-nome" data-ls-module="charCounter" minlength="10" maxlength="40">
+        </label>
       </div>
-    </div>
+    </div><br>
 
     <div class="container">
       <div class=" form-group">
-        <label for="input-email">Email:</label>
-        <input type="text" name="email" id="input-email" placeholder="Insira seu email">
+        <label for="input-email">Email:
+          <input type="text" name="email" id="input-email" placeholder="Insira seu email">
+        </label>
       </div>
-    </div>
+    </div><br>
 
     <div class="container">
       <p>Destino Preferido:</p>
-      <select name="destino" id="input-destino">
-        <option value="ST">São Thomé das Letras-MG</option>
-        <option value="LS">Lagoa Santa-MG</option>
-        <option value="TR">Teresópolis-RJ</option>
-        <option value="MV">Monte Verde-MG</option>
-        <option value="PI">Pirenópolis-GO</option>
-      </select>
-    </div>
+      <label for="opcao1">
+        <input type="radio" id="opcao1"> Cidade
+      </label>
+      <label for="opcao2">
+        <input type="radio" id="opcao2"> Campo
+      </label>
+      <label for="opcao3">
+        <input type="radio" id="opcao3"> Praia
+      </label>
+      <label for="opcao4">
+        <input type="radio" id="opcao4"> Montanhas
+      </label>
+    </div><br>
 
     <div class="container">
-        <label class="col-sm-2 control-label">Qual a melhor data para a viagem?</label>
-        <div class="col-sm-10">
-          <div class="input-group date">
-            <input type="text" class="form-control" id="input-date">
-            <div class="input-group-addon">
-              <span class="glyphicon glyphicon-th"></span>
-            </div>
-          </div>
-        </div>
-    </div>
-    
+      <label for="input-argumento"> Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?<br>
+        <textarea name="campo-sobre" id="textarea1" placeholder="Limite de 500 caracteres" cols="30"
+          rows="5"></textarea>
+      </label>
+    </div><br>
+
+    <div class="container">
+      <label class="col-sm-2 control-label">Qual a melhor data para a viagem?
+        <input type="date">
+      </label>
+    </div><br>
+
+    <div class="container">
+      <label for="ofertasSouN">
+        <input type="checkbox" name="ofertas" id="ofertasSouN"> Gostaria de receber outras incríveis oportunidades
+        oferecidas pela Trybe?
+      </label>
+      <label for="uso-de-imgs" required>
+        <input type="checkbox" name="permissao" id="uso-de-imgs"> Concordo que imagens das minhas férias poderão ser
+        usadas na divulgação de concursos futuros.
+      </label>
+    </div><br>
+
     <div class="container">
       <div class="for-group">
         <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-success">Enviar</button>
+          <button type="submit" class="btn-success">Enviar</button>
+          <button type="reset" class="btn-defaut">Limpar</button>
         </div>
       </div>
     </div>
   </form>
-
 
 
 
