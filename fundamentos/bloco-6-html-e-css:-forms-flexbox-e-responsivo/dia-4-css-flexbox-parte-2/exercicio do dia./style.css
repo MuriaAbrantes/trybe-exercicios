@@ -12,17 +12,21 @@ body {
 .header-container {
   background-color: #5C687C;
   display: flex;
+  border: solid 2px blue;
 }
 
 .logo-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 40%;
+  border: solid 2px red;
 }
 
 .menu-container {
   display: flex;
-  flex: ;
-
+  width: 30%;
+  flex-direction: row-reverse;
+  border: solid 2px yellow;
 }
 
 .menu-container ul {
