@@ -10,6 +10,11 @@
 let texto1 = 'trybe';
 let texto2 = 'be';
 
+function compararStrings (word, ending) {
+
+}
+
 function compararStrings (texto1, texto2) {
 
 }
+

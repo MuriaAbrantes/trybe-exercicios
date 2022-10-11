@@ -1,0 +1,94 @@
+<!-- Para fixar
+Vamos praticar um pouco, criando uma tela de login? 🔥
+1 - Adicione os campos de entrada para email e senha.
+2 - Adicione um checkbox com o texto Lembre-me.
+3 - Adicione um botão com o texto Entrar.
+4 - Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha.
+5 - Adicione o atributo required para os campos de email e senha.
+6 - Adicione o atributo autocomplete="off" para o campo de email.
+7 - Adicione o atributo autofocus para o campo de email. -->
+<!-- 
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML e CSS -FORMS</title>
+</head>
+
+<body>
+
+  <form action="" method="post"></form>
+  <label for="email">Digite seu email:</label><br>
+  <input type="email" placeholder="Digite seu email" id="email" name="fEmail"  autocomplete="off" autofocus required>
+  <br>
+  <input type="checkbox" id="salvarDado" name="lembrar">
+  <label for="salvarDado">Lembre-me</label>
+  <br><br>
+  <label for="senha"> Digite sua senha:</label><br>
+  <input type="password" placeholder="Digite sua senha" id="senha" name="fSenha" required>
+  <br>
+  <button>Entrar</button>
+
+</body>
+
+</html> -->
+<!-- ok -->
+
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML e CSS -FORMS</title>
+</head>
+
+<body>
+
+  <form action="" method="get"></form>
+  <label for="nomeCompleto"> Nome completo:
+    <input type="text" placeholder="Digite seu nome" name="nome" id="nomeCompleto" required>
+  </label>
+  <br><br>
+  <label for="email">Digite seu email:  <input type="email" placeholder="Digite seu email" name="fEmail" id="email" autocomplete="off" autofocus required>
+  </label>
+  <br>
+  <input type="checkbox" id="salvarDado" name="lembrar">
+  <label for="salvarDado">Lembre-me</label>
+  <br><br>
+  <label for="senha"> Digite sua senha:
+    <input type="password" placeholder="Digite sua senha" name="fSenha" id="senha" required>
+  </label>
+  <br><br>
+  <label for="">Estado:
+    <select name="estado" id="input-estado">
+      <option value="AM">AMAZONAS</option>
+      <option value="DF">DISTRITO FEDERAL</option>
+      <option value="RO">RORAIMA</option>
+      <option value="SE">SERGIPE</option>
+      <option value="MG">MINAS GERAIS</option>
+      <br>
+      </select>
+  </label>
+  <p>Selecione sua foto:</p>
+  <input type="file" name="imagem" id="input-foto">
+
+  <p>Comidas favoritas:</p>
+  <label for="inputComida">  <input type="radio" name="comida-favorita" id="inputComida1" value="Feijão Tropeiro" checked>Feijão Tropeiro <br>
+    <input type="radio" name="comida-favorita" id="inputComida2" value="Charque" checked>Frango Caipira <br>
+    <input type="radio" name="comida-favorita" id="inputComida3" value="Frango Caipira" checked>Vaca-Atolada <br>
+    <input type="radio" name="comida-favorita" id="inputComida4" value="Vaca-Atolada" checked>Galinhada <br>
+    <input type="radio" name="comida-favorita" id="inputComida5" value="Galinhada" checked>Charque
+  </label>
+  <br>
+  <p>Fale um pouco sobre você:</p>
+  <textarea name="descricao" id="input-descricion" cols="30" rows="5"></textarea>
+  <br><br>
+  <label for=""></label>
+  <button>Entrar</button>
+
+</body>
+
+</html>
+
+ok

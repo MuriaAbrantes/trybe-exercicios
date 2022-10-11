@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #eff8e3;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 100%;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-trybe {
+  max-width: 40px;
+  max-height: 40px;
+  width: 30%;
+  height: auto;
+}
+
+.container {
+  background-color: #284026;
+  text-transform: uppercase;
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.container h1, a {
+  background-color: #284026;
+}
+
+#litle-text {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.foto {
+  border: solid 1px rgb(37, 35, 35);
+  width: 25%;
+}
+
+#img-personagens {
+  width: 650px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 30px;
+  justify-content: center;
+  gap: 20px;
+}
+
+#img-redes-sociais {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}

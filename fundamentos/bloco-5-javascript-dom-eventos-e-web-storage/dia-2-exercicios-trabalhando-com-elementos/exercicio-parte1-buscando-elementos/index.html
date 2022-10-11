@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>bl5.dia2</title>
+</head>
+
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho">pppp</section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho">oi</section>
+        <section id="segundoEUltimoFilhoDoFilho">ei</section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho">cinco</section>
+      <section id="quartoEUltimoFilho">seis</section>
+    </section>
+  </main>
+</body>
+<script>
+  // AQUI TÔ PEGANDO O PAI DE ELEMENTO ONDE VC ESTA E PINTANDO DE RED:
+    const elemento = document.getElementById('elementoOndeVoceEsta').parentNode;
+    elemento.style.color = 'red'; 
+    // ok
+
+// // AQUI EU TÔ SELECIONANDO O ELEMENTO TERCEIRO FILHO E PINTANDO DE AZUL:
+//     const elemento = document.getElementsByTagName('section')[5];
+//     elemento.style.color = 'blue';
+
+// // AQUI SELECIONO AS TAGS SECTION, E NO FOR PINTO UMA POR UMA DE BLUE.
+//     const elemento = document.getElementsByTagName('section');
+//   for (let index = 0; index < elemento.length; index += 1 ) {
+//     elemento[index].style.color = 'blue';
+//   }
+
+</script>
+
+</html>
+
+<!-- Acesse o elemento elementoOndeVoceEsta.
+Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+Acesse o primeiroFilho a partir de pai.
+Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
+Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
+Agora acesse o terceiroFilho a partir de pai. -->
