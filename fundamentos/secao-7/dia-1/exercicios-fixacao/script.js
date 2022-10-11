@@ -1,6 +1,6 @@
 const printName = function () {
   const myName = 'Lucas';
-      return myName;
+  return myName;
 };
 
 console.log(printName());
