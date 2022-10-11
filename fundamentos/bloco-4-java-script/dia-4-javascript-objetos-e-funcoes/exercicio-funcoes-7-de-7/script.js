@@ -14,4 +14,7 @@ function compararStrings (word, ending) {
 
 }
 
-// 
+function compararStrings (texto1, texto2) {
+
+}
+
